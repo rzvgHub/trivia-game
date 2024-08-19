@@ -125,3 +125,8 @@ input {
 input::placeholder {
   color: #aaa;
 }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
