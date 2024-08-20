@@ -83,8 +83,6 @@ choices.forEach(choice => {
 
     const classToApply =
       selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
-      console.log(selectedAnswer);
-      console.log(currentQuestion.answer);
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
     }
@@ -94,7 +92,7 @@ choices.forEach(choice => {
     setTimeout(() => {
       selectedChoice.parentElement.classList.remove(classToApply);
       getNewQuestion();
-    }, 1000);
+    }, 10000);
   });
 });
 

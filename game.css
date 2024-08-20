@@ -23,15 +23,15 @@
 .choice-text {
   padding: 1.5rem;
   width: 100%;
-  background-color: whitesmoke;
+  /*background-color: whitesmoke; */
 }
 
 .correct {
-  background-color: #28a745;
+  background-color: #28a745 !important;
 }
 
 .incorrect {
-  background-color: #dc3545;
+  background-color: #dc3545 !important;
 }
 
 /* HUD */
