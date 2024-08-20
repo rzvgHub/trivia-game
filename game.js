@@ -92,7 +92,7 @@ choices.forEach(choice => {
     setTimeout(() => {
       selectedChoice.parentElement.classList.remove(classToApply);
       getNewQuestion();
-    }, 10000);
+    }, 1000);
   });
 });
 
