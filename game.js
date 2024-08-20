@@ -54,7 +54,7 @@ getNewQuestion = () => {
     //go to the end page
     window.location.assign("end.html");
   }
-  
+
   questionCounter++;
   progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
   //Update the progress bar
@@ -83,7 +83,8 @@ choices.forEach(choice => {
 
     const classToApply =
       selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
-
+      console.log(selectedAnswer);
+      console.log(currentQuestion.answer);
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
     }
