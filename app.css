@@ -1,5 +1,5 @@
 :root {
-  background-color: #ecf5ff;
+  background-color: #bbcfe7;
   font-size: 62.5%;
 }
 
@@ -89,7 +89,8 @@ h3 {
   margin-bottom: 1rem;
   text-decoration: none;
   color: #56a5eb;
-  background-color: white;
+  color: #eb56a7;
+  background-color: whitesmoke;
 }
 
 .btn:hover {
@@ -126,7 +127,3 @@ input::placeholder {
   color: #aaa;
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-}
