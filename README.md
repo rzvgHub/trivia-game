@@ -186,4 +186,4 @@ From line 23, column 11; to line 23, column 29
 
 ### Aknowlegements
 
-Thank you to ourmy mentors, Elaine and Mark who helped us resolve some technical issues and provided support.The basic structure of this readme was built following the example of Elaine's [Thrive project readme](https://github.com/elainebroche-dev/ms1-thrive/blob/master/README.md).
+Thank you to my mentors, Elaine and Mark who helped us resolve some technical issues and provided support.The basic structure of this readme was built following the example of Elaine's [Thrive project readme](https://github.com/elainebroche-dev/ms1-thrive/blob/master/README.md).
