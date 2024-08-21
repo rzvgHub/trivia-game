@@ -128,10 +128,9 @@
 
 From line 23, column 11; to line 23, column 29
 
-
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-- 
+
 [JavaScript Validator](https://pythontutor.com/render.html#mode=edit)
 
 ### Browser Compatibility
