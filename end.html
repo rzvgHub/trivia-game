@@ -4,26 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Congrats!</title>
+    <title>Well Done!</title>
     <link rel="stylesheet" href="assets/css/app.css" />
   </head>
   <body>
     <div class="container">
-      
-      <div id="end" class="flex-center flex-column">
-        <h1 id="final-score">Your Score</h1>
-        <h1 id="finalScore">0</h1>
-        <form>
+      <div id="end" class="flex-center flex-column" role="main">
+        <h1 id="final-score" aria-live="polite">Your Score</h1>
+        <h1 id="finalScore" aria-live="polite">0</h1>
+        <form aria-label="Save your score">
+          <label for="username" class="sr-only">Enter your username</label>
           <input
             type="text"
             name="username"
             id="username"
             placeholder="username"
+            aria-label="Enter your username"
+            required
           />
-          <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Save</button>
+          <button 
+            type="submit" 
+            class="btn" 
+            id="saveScoreBtn" 
+            onclick="saveHighScore(event)" 
+            disabled 
+            aria-disabled="true"
+            aria-label="Save your score"
+          >
+            Save
+          </button>
         </form>
-        <a class="btn" href="game.html">Play Again</a>
-        <a class="btn" href="index.html">Go Home</a>
+        <a class="btn" href="game.html" aria-label="Play the quiz game again">Play Again</a>
+        <a class="btn" href="index.html" aria-label="Return to the homepage">Go Home</a>
       </div>
     </div>
     <script src="assets/js/end.js"></script>

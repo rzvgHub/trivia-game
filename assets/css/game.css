@@ -1,3 +1,6 @@
+
+/* Container */
+
 .choice-container {
   display: flex;
   margin-bottom: 0.5rem;
@@ -34,7 +37,7 @@
   background-color: #dc3545 !important;
 }
 
-/* HUD */
+/* Head Up Display */
 
 #hud {
   display: flex;
@@ -43,7 +46,7 @@
 
 .hud-prefix {
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .hud-main-text {
