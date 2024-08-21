@@ -45,7 +45,7 @@
 
 - ### Quiz Interface
 
--The quiz interface is clean and straightforward, allowing users to focus on answering questions. The interface includes a question area, multiple-choice answers.
+- The quiz interface is clean and straightforward, allowing users to focus on answering questions. The interface includes a question area, multiple-choice answers.
 
 
 - ### Responsive Design
