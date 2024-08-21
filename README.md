@@ -114,6 +114,7 @@
 -   [Google Fonts:](https://fonts.google.com) was used to import the Arial, Helvetica.
 -   [Git:](https://git-scm.com) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 -   [GitHub:](https://github.com) is used as the respository for the projects code after being pushed from Git.
+-   [FavIcon:](https://www.flaticon.com/) and converted using [Favicon.io](https://favicon.io/favicon-converter/).
 
 
 ## Testing
